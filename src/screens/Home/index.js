@@ -4,13 +4,13 @@ import Services from "../../components/Services";
 
 import styled from "styled-components/native";
 
-import Lic from "../../assets/license.svg"
+import Reserva from "../../assets/reserva.svg"
 
-import Taxes from "../../assets/taxes.svg"
+import Renovar from "../../assets/renovar.svg"
 
-import Educacao from "../../assets/education3.svg"
+import Livro from "../../assets/livro.svg"
 
-import Perfomance from "../../assets/performance3.svg"
+import Financeiro from "../../assets/financeiro.svg"
 
 import Comunidade from "../../assets/community.svg"
 
@@ -38,34 +38,34 @@ export default ({ state, navigation }) => {
     return (
         <Container>
             <HeaderArea>
-                <HeaderTitle>Serviços</HeaderTitle>
+                <HeaderTitle>INÍCIO</HeaderTitle>
             </HeaderArea>
 
             <ServiceArea>
-                <TabItem onPress={() => goTo('Licenca')}>
-                    <TextTitle>Licenças</TextTitle>
-                    <Lic width="30" height="30" fill="#FFFFFF"></Lic>
+                <TabItem onPress={() => goTo('Reserva')}>
+                    <TextTitle>Reservar Livro</TextTitle>
+                    <Reserva width="30" height="30" fill="#FFFFFF"></Reserva>
                 </TabItem>
             </ServiceArea>
 
             <ServiceArea>
-                <TabItem onPress={() => goTo('Taxa')}>
-                    <TextTitle>Taxa</TextTitle>
-                    <Taxes width="30" height="30" fill="#FFFFFF"></Taxes>
+                <TabItem onPress={() => goTo('Renovacao')}>
+                    <TextTitle>Renovar Empréstimo</TextTitle>
+                    <Renovar width="30" height="30" fill="#FFFFFF"></Renovar>
                 </TabItem>
             </ServiceArea>
 
             <ServiceArea>
-                <TabItem onPress={() => goTo('Educacao')}>
-                    <TextTitle>Educação</TextTitle>
-                    <Educacao width="30" height="30" fill="#FFFFFF"></Educacao>
+                <TabItem onPress={() => goTo('Emprestimos')}>
+                    <TextTitle>Empréstimos</TextTitle>
+                    <Livro width="30" height="30" fill="#FFFFFF"></Livro>
                 </TabItem>
             </ServiceArea>
 
             <ServiceArea>
-                <TabItem onPress={() => goTo('Desempenho')}>
-                    <TextTitle>Desempenho</TextTitle>
-                    <Perfomance width="30" height="30" fill="#FFFFFF"></Perfomance>
+                <TabItem onPress={() => goTo('Financeiro')}>
+                    <TextTitle>Taxas da biblioteca</TextTitle>
+                    <Financeiro width="30" height="30" fill="#FFFFFF"></Financeiro>
                 </TabItem>
             </ServiceArea>
 

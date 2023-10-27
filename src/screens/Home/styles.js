@@ -3,7 +3,7 @@ import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
     flex: 1;
-    background-color: #63C2D1;
+    background-color: #FAE8B1;
     justify-content: center;
 `;
 
@@ -16,7 +16,7 @@ export const HeaderArea = styled.View`
 export const HeaderTitle = styled.Text`
     font-size: 50px;
     font-weight: bold;
-    color: #FFF;
+    color: #7186FF;
 `;
 
 export const TextTitle = styled.Text`
@@ -26,14 +26,15 @@ export const TextTitle = styled.Text`
 `;
 
 export const ServiceArea = styled.View`
-    width: 100%;
+    width: 90%;
     height: 90px;
-    background-color: #54B4C7;
+    background-color: #7186FF;
     flex-direction: row;
-    border-radius: 30px;
+    border-radius: 10px;
     align-items: center;
     margin-bottom: 15px;
     margin-top: 20px;
     justify-content: center;
+    left:20px;
 `;
 

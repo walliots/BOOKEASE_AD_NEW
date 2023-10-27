@@ -8,7 +8,7 @@ import MainTab from "../stacks/MainTab";
 import Home from '../screens/Home'
 
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Licenca from "../screens/Licenca";
+import Licenca from "../screens/Reserva";
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();

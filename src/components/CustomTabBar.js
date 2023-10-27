@@ -8,7 +8,7 @@ import ConfigIcon from "../assets/configAPP2.svg"
 
 const TabArea = styled.View`
     height: 60px;
-    background-color: #4EADBE;
+    background-color: #7186FF;
     flex-direction: row;
 `;
 
@@ -34,7 +34,7 @@ export default ({state, navigation}) =>{
             <TabItem onPress={()=>goTo('Search')}>
                 <SearchIcon style={{opacity: state.index===1? 1 : 0.5}} width="30" height="30" fill="#FFFFFF"/>
             </TabItem>
-            <TabItem onPress={()=>goTo('Configuracao')}>
+            <TabItem onPress={()=>goTo('User')}>
                 <ConfigIcon style={{opacity: state.index===2? 1 : 0.5}}  width="30" height="30" fill="#FFFFFF"/>
             </TabItem>
             <TabItem onPress={()=>goTo('Suporte')}>

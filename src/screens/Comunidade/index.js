@@ -21,21 +21,21 @@ import { Image } from 'react-native';
 export default () => {
     return (
         <Container>
+            <ServiceArea>
+                <TextTitle>Noticias</TextTitle>
+            </ServiceArea>
+            <ServiceAreaNews>
+                <Image
+                    source={require('../../assets/sessao.jpeg')}
+                />
+            </ServiceAreaNews>
             <ContainerArea>
                 <HeaderArea>
                     <HeaderTitle>Comunidade</HeaderTitle>
                 </HeaderArea>
             </ContainerArea>
             <ServiceArea>
-                <TextTitle>Noticias</TextTitle>
-            </ServiceArea>
-            <ServiceAreaNews>
-                <Image
-                    source={require('../../assets/limpa_nome.jpeg')}
-                />
-            </ServiceAreaNews>
-            <ServiceArea>
-                <NewsTitle>Feirão Limpa Nome vai atender pessoas físicas e jurídicas nesta quinta-feira (14) e sexta (15) no hall do Sebrae/AP, das 9h às 17h.</NewsTitle>
+                <NewsTitle>Sessão de Orientação para Alunos de Graduação na biblioteca no dia 27/10/2023</NewsTitle>
             </ServiceArea>
         </Container>
     )

@@ -3,7 +3,7 @@ import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
     flex: 1;
-    background-color: #63C2D1;
+    background-color: #FAE8B1;
 
 `;
 
@@ -16,7 +16,7 @@ export const HeaderArea = styled.View`
 export const HeaderTitle = styled.Text`
     font-size: 50px;
     font-weight: bold;
-    color: #FFF;
+    color: #7186FF;
 `;
 
 export const TextTitle = styled.Text`
@@ -38,7 +38,7 @@ export const ServiceArea = styled.View`
 `;
 
 export const ContainerArea = styled.SafeAreaView`
-    height: 70px;
+    height: 110px;
     justifyContent: 'center';
     alignItems: 'center';
     position: fixed;

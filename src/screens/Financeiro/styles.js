@@ -3,25 +3,8 @@ import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
     flex: 1;
-    background-color: #63C2D1;
+    background-color: #FAE8B1;
 
-`;
-
-export const ContainerArea = styled.SafeAreaView`
-    height: 70px;
-    justifyContent: 'center';
-    alignItems: 'center';
-    position: fixed;
-    top: 15px;
-    left: 0;
-    right: 0;
-`;
-
-export const ContainerMain = styled.SafeAreaView`
-    flex: 1;
-    background-color: #63C2D1;
-    justify-content: center;
-    height:70%;
 `;
 
 export const HeaderArea = styled.View`
@@ -33,7 +16,7 @@ export const HeaderArea = styled.View`
 export const HeaderTitle = styled.Text`
     font-size: 50px;
     font-weight: bold;
-    color: #FFF;
+    color: #7186FF;
 `;
 
 export const TextTitle = styled.Text`
@@ -52,4 +35,14 @@ export const ServiceArea = styled.View`
     margin-bottom: 15px;
     margin-top: 20px;
     justify-content: center;
+`;
+
+export const ContainerArea = styled.SafeAreaView`
+    height: 130px;
+    justifyContent: 'center';
+    alignItems: 'center';
+    position: fixed;
+    top: 15px;
+    left: 0;
+    right: 0;
 `;

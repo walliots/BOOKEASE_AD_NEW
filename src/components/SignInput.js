@@ -4,9 +4,9 @@ import styled from "styled-components/native";
 const InputArea = styled.View`
     width: 100%;
     height: 60px;
-    background-color: #54B4C7;
+    background-color: #A8D3FF;
     flex-direction: row;
-    border-radius: 30px;
+    border-radius: 10px;
     padding-left: 15px;
     align-items: center;
     margin-bottom: 15px;

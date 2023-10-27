@@ -12,11 +12,13 @@ import {
 } from "./styles"
 
 import { Text } from "react-native";
-import GcaLogo from "../../assets/gcalogoupdate.svg";
+import BookEase from "../../assets/LogoBookNEW.svg";
 import SignInput from "../../components/SignInput";
 import EmailIcon from "../../assets/email.svg"
 import PersonIcon from "../../assets/person.svg"
 import LockIcon from "../../assets/lock.svg"
+
+import Matricula from "../../assets/matricula.svg"
 
 // import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from '@firebase/auth';
 // import { app } from "../../firebase";
@@ -29,6 +31,7 @@ export default () => {
     const [email, setEmailField] = useState('');
     const [password, setPasswordField] = useState('');
     const [name, setNameField] = useState('');
+    const [matriculaField, setMatriculaField] = useState('');
 
     const handleMessageButtonClick = () => {
         navigation.reset({
@@ -44,7 +47,7 @@ export default () => {
 
     return (
         <Container>
-            <GcaLogo width="100%" height="160px" />
+            <BookEase width="100%" height="160px" />
 
             <InputArea>
                 <SignInput
@@ -58,6 +61,12 @@ export default () => {
                     placeholder="Digite seu nome"
                     value={name}
                     onChangeText={t => setNameField(t)}
+                />
+                <SignInput
+                    IconSvg={Matricula}
+                    placeholder="Digite sua matricula"
+                    value={matriculaField}
+                    onChangeText={t => setMatriculaField(t)}
                 />
                 <SignInput
                     IconSvg={LockIcon}
